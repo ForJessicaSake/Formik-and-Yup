@@ -10,7 +10,6 @@ function App() {
       .email('Invalid Email Address'),
     password: Yup.string()
       .required('Password is Required')
-      .email('Invalid Email Address'),
   })
 
   //initializing formik and the properties
