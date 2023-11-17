@@ -1,7 +1,7 @@
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
 
-function App() {
+const  App=()=> {
 
   // form validation schema
   const formObject = Yup.object().shape({
